@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Parity Check Game</h1>
+    <button id="genbyte" onclick="generateByte();">Generate Byte</button>
+    <p id="byte-span"></p>
+    <p id="parity-type"></p>
+    <p id="status">Is it correct?</p>
+    <div id="options">
+        <button id="options-correct" onclick="checkCorrect(true, this);">Yes</button>
+        <button id="options-correct" onclick="checkCorrect(false, this);">No</button>
+    </div>
+</body>
+</html>
